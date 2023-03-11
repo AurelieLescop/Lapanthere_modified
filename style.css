@@ -568,11 +568,13 @@ a[data-lightbox]:hover img {
 #lightbox-modal .modal-dialog {
     width: 90%;
     max-width: 900px;
+    /** à quoi ça sert?**/
     margin: 0 auto 0;
 }
 
 #lightbox-modal .modal-dialog img {
-    max-height: 90vh;
+    /**max-height: 90vh;**/
+    height: 400px;
     margin: 0 auto;
 }
 
