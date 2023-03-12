@@ -745,13 +745,15 @@ h4 {
 /**essai correction width et height image**/
 
 .img.img-responsive.portfolio-thumb {
-    width: 320px;
-    height: auto;
+    /**width: 320px;
+    height: auto;**/
 }
 
 /**centrer image**/
 .col-sm-6 img {
     margin: auto;
+    width: 320px;
+    height: auto;
 }
 
 .portfolio-thumb {
