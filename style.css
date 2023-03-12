@@ -744,7 +744,7 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
-    width: 320px; /** ajout width et height à l'image**/
+    width: 320px; /** ajout width et height à l'image ou alors voir plutôt .img-responsive portfolio-thumb**/
     height: auto;
 }
 
