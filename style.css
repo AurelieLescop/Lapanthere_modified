@@ -743,15 +743,19 @@ h4 {
 }
 
 /**essai correction width et height image**/
-img.img-responsive.portfolio-thumb {
+
+.img.img-responsive.portfolio-thumb {
     width: 320px;
     height: auto;
 }
 
+/**centrer image**/
+.col-sm-6 img {
+    margin: auto;
+}
+
 .portfolio-thumb {
     margin-bottom: 24px;
-    /**width: 320px;  ajout width et height à l'image ou alors voir plutôt .img-responsive portfolio-thumb
-    height: auto;**/
 }
 
 .portfolio-row {
