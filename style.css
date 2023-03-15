@@ -1,4 +1,3 @@
-120
 body {
     margin: 0;
     padding: 0;
@@ -92,7 +91,6 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.avif");
     background-size: 280px 280px;
 }
 
@@ -830,14 +828,6 @@ h4 {
 .icon-dark-slate-blue {
     color: #364577!important;
     border-color: #364577!important;
-}
-
-.bg-dots-bg {
-    background-image: url("img/dots-bg.avif");
-}
-
-.bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.avif");
 }
 
 .bg-banniere {
