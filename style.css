@@ -586,18 +586,16 @@ a[data-lightbox]:hover img {
 }
 
 #lightbox-modal .modal-dialog img {
-    height: 400px;
+    max-height: 90vh;
     margin: 0 auto;
 }
 
+/**suppression position relative et centrage texte pour mise en page des photos**/
 .lightbox-caption {
     padding: 20px;
     color: #FFF;
     background: rgba(0, 0, 0, .5);
-    position: absolute;
-    left: 15px;
-    right: 15px;
-    bottom: 5px;
+    text-align: center;
 }
 
 .close-lightbox {
@@ -752,13 +750,18 @@ h4 {
     margin: auto;
 }
 
+/** mise en page des photos**/
+.col-sm-6 {
+    margin-bottom: 45px;
+}
+
 .portfolio-thumb {
     margin-bottom: 24px;
 }
 
+/**suppression marge bottom pour mise en page des photos**/
 .portfolio-row {
-    margin-bottom: 44px;
-    margin-top: 50px;
+    margin-top: 25px;
 }
 
 .avatar {
